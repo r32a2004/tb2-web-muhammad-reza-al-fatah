@@ -15,19 +15,6 @@ Route::get('/', function () {
 
 
 
-// Route::get('/tes',  [Contohcontroller::class, 'TampilContoh']);
-
-// Route::get('/produk', [produkcontroller::class,'ViewProduk']);
-// Route::get('/produk/add', [produkcontroller::class,'ViewAddProduk']);
-// Route::post('/produk/add', [produkcontroller::class,'CreateProduk']);
-
-// Route::delete('/produk/delete/{kode_produk}', [produkcontroller::class,'DeleteProduk']);
-// Route::get('/produk/edit/{kode_produk}', [produkcontroller::class,'ViewEditProduk']);
-// Route::put('/produk/edit/{kode_produk}', [produkcontroller::class,'UpdateProduk']);
-
-// Route::get('/laporan', [produkcontroller::class,'ViewLaporan']);
-// Route::get('/report', [produkcontroller::class,'print']);
-
 Route::get('/login', [AuthController::class, 'showLoginForm']);
 Route::post('/login', [AuthController::class, 'login']);
 Route::get('/register', [AuthController::class, 'showRegisterForm']);
